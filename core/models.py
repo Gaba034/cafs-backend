@@ -14,7 +14,7 @@ class Projeto(models.Model):
 
 
 class Computador(models.Model):
-    numero = models.CharField(max_length=3)
+    numero = models.CharField(max_length=4)
     linha = models.CharField(max_length=7)
     coluna = models.CharField(max_length=7)
 
